@@ -1,0 +1,132 @@
+body {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background-color: #252a34;
+  color: #eaeaea;
+}
+h1 {
+  font-family: "Satisfy", cursive;
+  color: #ff2e63;
+  font-size: 6rem;
+  margin: 0;
+}
+.head {
+  color: #252a34;
+  margin: 0;
+  font-size: 20px;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #ff2e63;
+  font-size: 2.5rem;
+  font-weight: normal;
+  line-height: 2;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #08d9d6;
+  font-weight: normal;
+}
+p {
+  margin: 0;
+}
+.top-container {
+  background-color: #eaeaea;
+  color: #252a34;
+  padding: 20px;
+  padding-top: 160px;
+  padding-bottom: 0;
+  position: relative;
+}
+.top-cloud {
+  position: absolute;
+  top: 180px;
+  right: 200px;
+}
+.bottom-cloud {
+  position: absolute;
+  bottom: 250px;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #52575c;
+    border-width: 10px;
+    width: 6%;
+    margin: 100px auto 100px;
+}
+.mtn {
+  margin: 0;
+  position: relative;
+  top: 4px;
+}
+.footer-link{
+    color: #ff2e63;
+}
+.des{
+    height: 200px;
+    float: right;
+    margin-left: 30px;
+
+}
+.dev{
+    height: 200px;
+    float: left;
+    margin-right: 30px;
+}
+.skill-row{
+    margin: 100px auto 100px;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+}
+.profile-photo{
+    height: 200px;
+    margin-top: 80px;
+}
+.last{
+    font-weight: lighter;
+    margin: 0 auto 0;
+    width: 50%;
+}
+.btn{
+    display: inline-block;
+    color: #eaeaea;
+    text-decoration: none;
+    margin: 50px auto 50px;
+    padding: 10px 20px;
+    border-style: none;
+    border-radius: 20px;
+    background-color: #ff2e63;
+    font-weight: lighter;
+}
+.btn:hover{
+    display: inline-block;
+    color: #eaeaea;
+    text-decoration: none;
+    margin: 50px auto 50px;
+    padding: 10px 20px;
+    border-style: none;
+    border-radius: 20px;
+    background-color: #9c0b2f;
+    font-weight: lighter;
+}
+.footer-link{
+    margin: 20px;
+    text-decoration: none;
+}
+.footer-link:hover{
+    margin: 20px;
+    color: #9c0b2f;
+    text-decoration: none;
+}
+.bottom-container{
+    padding: 20px;
+    padding-bottom: 5px;
+    background-color: #eaeaea;
+}
+.rights{
+    color: #252a34;
+    margin: 20px;
+}
