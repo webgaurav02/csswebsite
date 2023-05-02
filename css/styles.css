@@ -139,8 +139,21 @@ hr{
     font-size: 0.7rem;
   }
   .top-container{
-    padding-left: 20%;
-    padding-right: 20%;
+    height: 35vh;
+    padding: 30% 20% 30%;
+  }
+  .top-container h1{
+    margin-top: 35%;
+  }
+  .top-container h2{
+    font-size: 1.8rem;
+  }
+  .top-container a{
+    margin-top: 20%;
+    font-size: 1.8rem;
+  }
+  .top-container a:hover{
+    margin-top: 20%;
   }
   .middle-container{
     padding-left: 20%;
@@ -171,12 +184,15 @@ hr{
     line-height: 2;
   }
   .last{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   .last{
     width: 100%;
   }
   .profile-photo{
     margin-top: 20%;
+  }
+  .footer-link{
+    font-size: 1rem;
   }
 } 
