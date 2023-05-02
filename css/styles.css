@@ -2,8 +2,8 @@ body {
   text-align: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
-  background-color: #252a34;
-  color: #eaeaea;
+  background-color: #171717;
+  color: #EDEDED;
 }
 h1 {
   font-family: "Satisfy", cursive;
@@ -32,11 +32,11 @@ p {
   margin: 0;
 }
 .top-container {
-  background-color: #eaeaea;
-  color: #252a34;
+  background-color: #EDEDED;
+  color: #EDEDED;
   padding: 20px;
-  padding-top: 160px;
-  padding-bottom: 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
   position: relative;
 }
 .top-cloud {
@@ -130,3 +130,53 @@ hr{
     color: #252a34;
     margin: 20px;
 }
+
+@media (max-width: 1028px) {
+  .head{
+    font-size: 0.7rem;
+  }
+  p{
+    font-size: 0.7rem;
+  }
+  .top-container{
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  .middle-container{
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  .des{
+    height: 200px;
+    font-size: 1rem;
+  }
+  .dev{
+    height: 200px;
+    font-size: 1rem;
+  }
+  .skill-row p{
+    font-size: 1.5rem;
+  }
+
+  .skill-row p{
+    font-size: 1.5rem;
+  }
+  .skill-row h3{
+    font-size: 2rem;
+  }
+  .skill-row{
+    margin: 100px auto 100px;
+    width: 70%;
+    text-align: left;
+    line-height: 2;
+  }
+  .last{
+    font-size: 1.2rem;
+  }
+  .last{
+    width: 100%;
+  }
+  .profile-photo{
+    margin-top: 20%;
+  }
+} 
